@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <h1><b><?php
+  <?php
     define("nom", "Albert");
+  ?>
 
-    echo constant("nom");
-  ?></b></h1>
+  <h1><?php echo "El nombre es: ".constant("nom");?></h1>
 
 </body>
 </html>

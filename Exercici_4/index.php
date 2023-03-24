@@ -11,9 +11,13 @@
   echo "\nMòdul: ".$X%$Y;
 
   echo "\n\nValors double: ".$N." i ".$M;
-  echo "\nDoble de les variables: ".$N*$N." i ".pow($M , 2);
-  echo "\nSuma de N i M: ".$N+$M;
-  echo "\nProducte de N i M: ".$N*$M;
+  echo "\nSuma: ".$N+$M;
+  echo "\nResta: ".$N-$M;
+  echo "\nProducte: ".$N*$M;
+  echo "\nMòdul: ".$N%$M;
 
+  echo "\n\nEl doble de: X=".($X*2).", Y=".($Y*2).", N=".($N*2)." i M=".($M*2);
+  echo "\nLa suma de totes les variables: ".$X+$Y+$N+$M;
+  echo "\nEl producte de totes les variables: ".$X*$Y*$N*$M;
 
 ?>
